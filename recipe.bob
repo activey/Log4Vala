@@ -1,0 +1,28 @@
+{
+  "project" : {
+    "name" : "Log4Vala",
+    "shortName" : "log4vala",
+    "version" : "0.0.1",
+    "dependencies" : [
+      {
+        "dependency" : "glib",
+        "type" : "pkg",
+        "version" : "2.0"
+      },
+      {
+        "dependency" : "gobject",
+        "type" : "pkg",
+        "version" : "2.0"
+      },
+      {
+        "dependency" : "gio",
+        "type" : "pkg",
+        "version" : "2.0"
+      },
+      {
+        "dependency" : "posix",
+        "type" : "pkg"
+      }
+    ]
+  }
+}
